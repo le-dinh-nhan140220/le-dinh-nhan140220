@@ -9,21 +9,21 @@
             text-align: right;
             width: 100px;
         }
-        .abc{
+        .txt{
             font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
         }
     </style>
 </head>
 <body>
 <fieldset style="background-color: aquamarine">
-    <form method="get" action="taomotformdongian.html" class="abc">
+    <form method="get" action="taomotformdongian.html" class="txt">
         <table style="margin-left: 30%;background-color: aliceblue" width="500px" >
             <tr>
-                <th style="background-color: red" colspan="2"><h2 style="color: aliceblue">SỞ THÍCH CỦA BẠN</h2></th>
+                <th style="background-color: red" colspan="2"><h2 style="color:aliceblue">SỞ THÍCH CỦA BẠN</h2></th>
             </tr>
             <tr>
                 <td><p>Họ và tên</p></td>
-                <td><input type="text" name="yourname" size="25"/></td>
+                <td><input type="text" name="name" size="25"/></td>
             </tr>
             <tr>
                 <td><p>Email</p></td>
@@ -49,4 +49,61 @@
             </tr>
         </table>
     </form>
+</fieldset>
 
+<fieldset>
+    <form method="get" action="taomotformdongian.html" class="txt">
+        <table style="margin-left: 30%; background-color:palegoldenrod"  width="600px">
+            <tr>
+<td style="background: aqua" colspan="2" >
+                <h1 style="color:darkblue"> ĐĂNG KÍ HỌC VIÊN </h1>
+</td>
+            </tr>
+            <tr>
+            <td><p>Họ và tên</p></td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><p>Ngày sinh</p></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><p>Giới tính</p></td>
+                <td>
+                    <input type="radio" name="rd"/> Nam
+                    <input type="radio" name="rd"/> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><p>Địa chỉ</p></td>
+                <td><textarea rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><p>Lớp</p></td>
+                <td>
+                    <select>
+                        <option>-Chọn lớp-</option>
+                        <option>Lớp non</option>
+                        <option>Lớp pro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Email</p></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><p>Điện thoại</p></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center">
+                    <input type="submit" value="Đăng Ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+</fieldset>
